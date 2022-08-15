@@ -1,0 +1,14 @@
+những thành phần cơ bản có ở website
+1.header(đầu trang)
+2.Navigation(điều hướng)
+3.breadcrumb
+4.sidebar(nó nằm bên trái  or bên phải)
+5.slider
+6.Bandnner
+7.content
+8.footer(chan trang hay phần cuối trang website)
+
+mặt định thẻ 
+li{
+    display:list-item; /* nằm theo chiều dọc*/
+}

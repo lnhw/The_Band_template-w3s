@@ -1,0 +1,54 @@
+/* Table */
+@media(min-widht:768px) and (max-width:1230px) {
+    
+}
+/* Mobile */
+@media (max-width: 740px){
+    .s-col-full{
+        width: 100%;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child(0){
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial; /* giá trị mặt định của nó*/
+        background-color:#333;  
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 0 41px;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search-icon{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .place-item{
+        margin-top: 30px;
+        width: 100%;
+
+    }
+    #content .place-buy-btn{
+        width: 100%;
+    }
+    #content .contact-form{
+        margin-top: 16px;
+    }
+    #content .contact-form .form-submit-btn{
+        width: 100%;
+    }
+}
